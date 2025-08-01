@@ -107,25 +107,26 @@ const InvestorPortalPage: React.FC = () => {
       if (!response.ok) {
         throw new Error('Failed to load portal configuration');
       }
-      const portalData = await response.json();
+      const result = await response.json();
+      const portalData = result.data;
       setPortal(portalData);
       
       // Initialize form states
       setLoginAssets({
         logoFile: null,
         backgroundFile: null,
-        logoAltText: portalData.loginPageAssets.logoAltText || '',
-        logoPreview: portalData.loginPageAssets.logoUrl || '',
-        backgroundPreview: portalData.loginPageAssets.backgroundImageUrl || ''
+        logoAltText: portalData.loginPageAssets?.logoAltText || '',
+        logoPreview: portalData.loginPageAssets?.logoUrl || '',
+        backgroundPreview: portalData.loginPageAssets?.backgroundImageUrl || ''
       });
 
       setBranding({
-        primaryColor: portalData.branding.primaryColor,
-        secondaryColor: portalData.branding.secondaryColor,
-        accentColor: portalData.branding.accentColor,
-        fontFamily: portalData.branding.fontFamily,
+        primaryColor: portalData.branding?.primaryColor || '#007bff',
+        secondaryColor: portalData.branding?.secondaryColor || '#6c757d',
+        accentColor: portalData.branding?.accentColor || '#28a745',
+        fontFamily: portalData.branding?.fontFamily || 'Arial, sans-serif',
         logoFile: null,
-        logoPreview: portalData.branding.logoUrl || ''
+        logoPreview: portalData.branding?.logoUrl || ''
       });
 
       setWelcomeMessage(portalData.welcomeMessage);

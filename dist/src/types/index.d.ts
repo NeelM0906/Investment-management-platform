@@ -209,4 +209,60 @@ export interface ICustomUnitClassService {
     deleteCustomClass(id: string): Promise<void>;
     validateCustomClassData(classData: CustomUnitClassFormData): Promise<void>;
 }
+export interface Contact {
+    id: string;
+    firstName: string;
+    middleName?: string;
+    lastName: string;
+    email?: string;
+    phoneNumber?: string;
+    fax?: string;
+    createdAt: string;
+    updatedAt: string;
+}
+export interface ContactFormData {
+    firstName: string;
+    middleName?: string;
+    lastName: string;
+    email?: string;
+    phoneNumber?: string;
+    fax?: string;
+}
+export interface ContactFilters {
+    search?: string;
+    sortBy?: 'firstName' | 'lastName' | 'email' | 'createdAt';
+    sortOrder?: 'asc' | 'desc';
+}
+export interface Document {
+    id: string;
+    projectId: string;
+    originalName: string;
+    customName: string;
+    fileName: string;
+    fileSize: number;
+    mimeType: string;
+    fileExtension: string;
+    uploadedAt: string;
+    updatedAt: string;
+}
+export interface DocumentFormData {
+    projectId: string;
+    customName: string;
+    file: File;
+}
+export interface DocumentFilters {
+    projectId?: string;
+    search?: string;
+    fileType?: string;
+    sortBy?: 'customName' | 'originalName' | 'uploadedAt' | 'fileSize';
+    sortOrder?: 'asc' | 'desc';
+}
+export interface ProjectDocumentSummary {
+    projectId: string;
+    projectName: string;
+    documentCount: number;
+    totalSize: number;
+    lastUpload?: string;
+    recentDocuments: Document[];
+}
 //# sourceMappingURL=index.d.ts.map

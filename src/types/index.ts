@@ -239,8 +239,9 @@ export interface ICustomUnitClassService {
   getAllCustomClasses(): Promise<CustomUnitClass[]>;
   deleteCustomClass(id: string): Promise<void>;
   validateCustomClassData(classData: CustomUnitClassFormData): Promise<void>;
-}// Contac
-t Types and Interfaces
+}
+
+// Contact Types and Interfaces
 
 export interface Contact {
   id: string;
@@ -267,8 +268,9 @@ export interface ContactFilters {
   search?: string;
   sortBy?: 'firstName' | 'lastName' | 'email' | 'createdAt';
   sortOrder?: 'asc' | 'desc';
-}// Doc
-ument Types and Interfaces
+}
+
+// Document Types and Interfaces
 
 export interface Document {
   id: string;

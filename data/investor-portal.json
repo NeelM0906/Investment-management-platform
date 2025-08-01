@@ -1,29 +1,27 @@
 {
-  "id": "8f7e6d5c-4b3a-2d1e-0f9e-8d7c6b5a4e3d",
+  "id": "default",
   "loginPageAssets": {
-    "logoUrl": "/uploads/images/default-logo.png",
-    "backgroundImageUrl": "/uploads/images/default-background.jpg",
-    "logoAltText": "Investment Management Portal"
+    "logoUrl": "",
+    "backgroundImageUrl": "",
+    "logoAltText": ""
   },
   "branding": {
-    "primaryColor": "#1f2937",
-    "secondaryColor": "#374151",
-    "accentColor": "#3b82f6",
-    "fontFamily": "Inter, sans-serif",
-    "logoUrl": "/uploads/images/default-logo.png"
+    "primaryColor": "#007bff",
+    "secondaryColor": "#6c757d",
+    "accentColor": "#28a745",
+    "fontFamily": "Arial, sans-serif",
+    "logoUrl": ""
   },
   "welcomeMessage": {
     "title": "Welcome to Our Investor Portal",
-    "content": "Access your investment information and track project progress.",
+    "content": "Access your investment information and updates here.",
     "showOnDashboard": true
   },
   "metrics": {
-    "selectedMetrics": ["totalProjects", "totalFunding", "activeInvestors"],
+    "selectedMetrics": [],
     "customMetrics": [],
-    "displayOrder": ["totalProjects", "totalFunding", "activeInvestors"]
+    "displayOrder": []
   },
-  "isPublished": true,
-  "portalUrl": "/portal/8f7e6d5c-4b3a-2d1e-0f9e-8d7c6b5a4e3d",
-  "createdAt": "2025-07-15T00:00:00.000Z",
-  "updatedAt": "2025-07-15T00:00:00.000Z"
+  "isPublished": false,
+  "portalUrl": ""
 }
