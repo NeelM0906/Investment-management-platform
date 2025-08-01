@@ -8,14 +8,14 @@ const contactService = new ContactService();
 router.get('/', async (req, res) => {
   try {
     const { search, sortBy, sortOrder } = req.query;
-
+    
     const filters = {};
     if (search) filters.search = search;
     if (sortBy) filters.sortBy = sortBy;
     if (sortOrder) filters.sortOrder = sortOrder;
 
     const contacts = await contactService.getAllContacts(filters);
-
+    
     res.json({
       success: true,
       data: contacts,
@@ -39,14 +39,14 @@ router.get('/:id', async (req, res) => {
   try {
     const { id } = req.params;
     const contact = await contactService.getContact(id);
-
+    
     res.json({
       success: true,
       data: contact
     });
   } catch (error) {
     console.error('Error fetching contact:', error);
-
+    
     if (error.message === 'Contact not found') {
       res.status(404).json({
         success: false,
@@ -81,7 +81,7 @@ router.post('/', async (req, res) => {
   try {
     const contactData = req.body;
     const newContact = await contactService.createContact(contactData);
-
+    
     res.status(201).json({
       success: true,
       data: newContact,
@@ -89,9 +89,9 @@ router.post('/', async (req, res) => {
     });
   } catch (error) {
     console.error('Error creating contact:', error);
-
-    if (error.message.includes('Validation failed') ||
-      error.message.includes('already exists')) {
+    
+    if (error.message.includes('Validation failed') || 
+        error.message.includes('already exists')) {
       res.status(400).json({
         success: false,
         error: {
@@ -117,9 +117,9 @@ router.put('/:id', async (req, res) => {
   try {
     const { id } = req.params;
     const contactData = req.body;
-
+    
     const updatedContact = await contactService.updateContact(id, contactData);
-
+    
     res.json({
       success: true,
       data: updatedContact,
@@ -127,7 +127,7 @@ router.put('/:id', async (req, res) => {
     });
   } catch (error) {
     console.error('Error updating contact:', error);
-
+    
     if (error.message === 'Contact not found') {
       res.status(404).json({
         success: false,
@@ -136,9 +136,9 @@ router.put('/:id', async (req, res) => {
           message: 'Contact not found'
         }
       });
-    } else if (error.message.includes('Validation failed') ||
-      error.message.includes('already exists') ||
-      error.message === 'Contact ID is required') {
+    } else if (error.message.includes('Validation failed') || 
+               error.message.includes('already exists') ||
+               error.message === 'Contact ID is required') {
       res.status(400).json({
         success: false,
         error: {
@@ -164,14 +164,14 @@ router.delete('/:id', async (req, res) => {
   try {
     const { id } = req.params;
     await contactService.deleteContact(id);
-
+    
     res.json({
       success: true,
       message: 'Contact deleted successfully'
     });
   } catch (error) {
     console.error('Error deleting contact:', error);
-
+    
     if (error.message === 'Contact not found') {
       res.status(404).json({
         success: false,
@@ -206,7 +206,7 @@ router.get('/search/:term', async (req, res) => {
   try {
     const { term } = req.params;
     const contacts = await contactService.searchContacts(term);
-
+    
     res.json({
       success: true,
       data: contacts,

@@ -12,13 +12,25 @@ A comprehensive platform for investment managers to create customizable dashboar
 
 ```
 investment-management-portal/
-├── src/
-│   ├── types/           # TypeScript interfaces and types
-│   ├── services/        # Business logic services
-│   └── repositories/    # Data access layer
-├── server/              # Express.js backend
-├── client/              # React frontend (to be created)
-└── docs/                # Documentation
+├── backend/
+│   ├── src/
+│   │   ├── routes/      # Express.js API routes
+│   │   ├── services/    # Business logic services
+│   │   ├── repositories/# Data access layer
+│   │   ├── models/      # Data models
+│   │   └── utils/       # Utility functions
+│   ├── package.json
+│   └── server.js        # Backend entry point
+├── frontend/
+│   ├── src/
+│   │   ├── components/  # React components
+│   │   ├── pages/       # Page components
+│   │   ├── hooks/       # Custom React hooks
+│   │   └── utils/       # Frontend utilities
+│   ├── package.json
+│   └── public/          # Static assets
+├── data/                # JSON file storage
+└── uploads/             # File uploads
 ```
 
 ## Getting Started
@@ -32,20 +44,29 @@ investment-management-portal/
 ### Installation
 
 1. Clone the repository
-2. Install dependencies:
+2. Install all dependencies:
    ```bash
-   npm install
+   npm run install:all
    ```
 
 3. Set up environment variables:
    ```bash
    cp .env.example .env
-   # Edit .env with your database credentials
+   # Edit .env with your configuration
    ```
 
-4. Start the development server:
+4. Start both backend and frontend:
    ```bash
    npm run dev
+   ```
+
+   Or start them separately:
+   ```bash
+   # Backend only (port 3001)
+   npm run backend:dev
+   
+   # Frontend only (port 3000)
+   npm run frontend:dev
    ```
 
 ### API Endpoints

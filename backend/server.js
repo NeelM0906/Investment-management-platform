@@ -9,4 +9,4 @@ require('ts-node').register({
 });
 
 // Start the server
-require('./server/index.js');
+require('./src/routes/index.js');
