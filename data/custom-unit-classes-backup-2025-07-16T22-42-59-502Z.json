@@ -1,0 +1,22 @@
+[
+  {
+    "id": "614608ee-9b3e-4a4a-9c22-4ec467061b5f",
+    "name": "Alpha Premium Class",
+    "createdAt": "2025-07-16T22:42:59.479Z"
+  },
+  {
+    "id": "ecf532a8-e057-40f8-afff-b9e89889b782",
+    "name": "Beta Premium Class",
+    "createdAt": "2025-07-16T22:42:59.480Z"
+  },
+  {
+    "id": "a4308ee0-eaed-4ce6-bee1-5b1edcdc3df6",
+    "name": "Alpha Standard Class",
+    "createdAt": "2025-07-16T22:42:59.482Z"
+  },
+  {
+    "id": "a07d430e-b577-4156-a1df-9eef11373107",
+    "name": "Gamma Basic Class",
+    "createdAt": "2025-07-16T22:42:59.482Z"
+  }
+]

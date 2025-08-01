@@ -1,0 +1,14 @@
+[
+  {
+    "id": "62892c7d-21ef-454d-8b07-4d927b003b8f",
+    "projectId": "test-project-123",
+    "unitClass": "Class A",
+    "unitPrice": 100,
+    "isOpenToInvestments": true,
+    "investmentIncrementAmount": 10,
+    "minInvestmentAmount": 100,
+    "maxInvestmentAmount": 1000,
+    "createdAt": "2025-07-16T22:28:18.290Z",
+    "updatedAt": "2025-07-16T22:28:18.290Z"
+  }
+]

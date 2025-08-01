@@ -1,0 +1,17 @@
+[
+  {
+    "id": "3c934dcf-4183-41da-a41d-318c0dc2d956",
+    "name": "Alpha Class",
+    "createdAt": "2025-07-16T22:28:18.351Z"
+  },
+  {
+    "id": "7cb1e022-7fcd-4c6d-84f6-978385571d32",
+    "name": "Beta Class",
+    "createdAt": "2025-07-16T22:28:18.352Z"
+  },
+  {
+    "id": "79527535-fff1-4029-b919-602d07d808c4",
+    "name": "Alpha Beta Class",
+    "createdAt": "2025-07-16T22:28:18.352Z"
+  }
+]

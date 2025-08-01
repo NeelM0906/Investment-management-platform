@@ -1,0 +1,38 @@
+[
+  {
+    "id": "2b8404a8-fb10-424e-9b25-1779c60f242c",
+    "projectId": "test-project-456",
+    "unitClass": "Class B",
+    "unitPrice": 250,
+    "isOpenToInvestments": false,
+    "investmentIncrementAmount": 20,
+    "minInvestmentAmount": 200,
+    "maxInvestmentAmount": 2000,
+    "createdAt": "2025-07-16T22:28:18.327Z",
+    "updatedAt": "2025-07-16T22:28:18.327Z"
+  },
+  {
+    "id": "b5da0927-3b04-41d2-9e7e-d402eff099bd",
+    "projectId": "test-project-concurrent",
+    "unitClass": "Concurrent Class 5",
+    "unitPrice": 140,
+    "isOpenToInvestments": true,
+    "investmentIncrementAmount": 10,
+    "minInvestmentAmount": 100,
+    "maxInvestmentAmount": 1000,
+    "createdAt": "2025-07-16T22:42:17.112Z",
+    "updatedAt": "2025-07-16T22:42:17.112Z"
+  },
+  {
+    "id": "aa33804b-e4b0-4128-a964-d6a13a864209",
+    "projectId": "test-project-case-insensitive",
+    "unitClass": "Premium Class",
+    "unitPrice": 100,
+    "isOpenToInvestments": true,
+    "investmentIncrementAmount": 10,
+    "minInvestmentAmount": 100,
+    "maxInvestmentAmount": 1000,
+    "createdAt": "2025-07-16T22:42:59.445Z",
+    "updatedAt": "2025-07-16T22:42:59.445Z"
+  }
+]

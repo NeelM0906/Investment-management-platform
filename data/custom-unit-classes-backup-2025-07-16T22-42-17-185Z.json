@@ -1,0 +1,17 @@
+[
+  {
+    "id": "6b2da520-b12b-4212-baff-c88ea72ba527",
+    "name": "Beta Premium Class",
+    "createdAt": "2025-07-16T22:42:17.143Z"
+  },
+  {
+    "id": "79cb5577-fecc-4e31-bf85-a249997b3a54",
+    "name": "Alpha Standard Class",
+    "createdAt": "2025-07-16T22:42:17.143Z"
+  },
+  {
+    "id": "5fd106d2-e1e8-48dd-88a8-78a986b548f3",
+    "name": "Gamma Basic Class",
+    "createdAt": "2025-07-16T22:42:17.144Z"
+  }
+]

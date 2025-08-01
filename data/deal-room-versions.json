@@ -1,0 +1,28 @@
+[
+  {
+    "id": "version_h2dzksndemdaeiqzm",
+    "projectId": "md6meit9vmnneh5u5vg",
+    "version": 1,
+    "data": {
+      "investmentBlurb": "Updated test investment blurb for auto-save functionality.",
+      "investmentSummary": "# Updated Test Investment Summary\n\nThis is an updated test summary.",
+      "keyInfo": [
+        {
+          "id": "item_622f34kmv",
+          "name": "Financial Projections",
+          "link": "https://example.com/financials.pdf",
+          "order": 0
+        },
+        {
+          "id": "item_ugn49mchy",
+          "name": "Market Analysis",
+          "link": "https://example.com/market.pdf",
+          "order": 1
+        }
+      ],
+      "externalLinks": []
+    },
+    "changeDescription": "Test auto-save functionality",
+    "createdAt": "2025-07-19T15:27:11.650Z"
+  }
+]

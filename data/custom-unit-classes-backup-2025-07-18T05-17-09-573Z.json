@@ -1,0 +1,62 @@
+[
+  {
+    "id": "9503cf4a-9cd5-4b51-b2cd-15dda2e5283a",
+    "name": "Class D",
+    "createdAt": "2025-07-16T23:49:10.343Z"
+  },
+  {
+    "id": "da57592a-4ff3-4abd-92b6-b9731b7d5b46",
+    "name": "Test Class",
+    "createdAt": "2025-07-16T23:52:08.799Z"
+  },
+  {
+    "id": "48d6d584-67b7-4303-b755-9ab8b06f4e3c",
+    "name": "Test Class 2",
+    "createdAt": "2025-07-16T23:53:29.482Z"
+  },
+  {
+    "id": "a8d2abbf-8353-4459-92db-eba4e94db1f0",
+    "name": "Test Class 1752710175243",
+    "createdAt": "2025-07-16T23:56:15.245Z"
+  },
+  {
+    "id": "8bbf19ad-5c0c-45ed-a65b-5ecea08f94ae",
+    "name": "Test Class 1752710206713",
+    "createdAt": "2025-07-16T23:56:46.715Z"
+  },
+  {
+    "id": "4e757133-b92b-40b0-b267-174e5ab95b66",
+    "name": "Test Class 1752711229820",
+    "createdAt": "2025-07-17T00:13:49.985Z"
+  },
+  {
+    "id": "ef1bd1e0-a3d7-4246-af52-c727b5ffd8e9",
+    "name": "Duplicate Class 1752711229991",
+    "createdAt": "2025-07-17T00:13:49.993Z"
+  },
+  {
+    "id": "000ee32c-ab47-4a8a-9305-6edcd307fde9",
+    "name": "Trimmed Class 1752711230002",
+    "createdAt": "2025-07-17T00:13:50.004Z"
+  },
+  {
+    "id": "ec6b9165-d49e-4365-893d-37aacd48fe68",
+    "name": "Test Integration Class",
+    "createdAt": "2025-07-17T00:41:39.073Z"
+  },
+  {
+    "id": "4774a778-f41f-4f70-9143-9f0580c1e4d1",
+    "name": "Premium",
+    "createdAt": "2025-07-17T00:43:29.280Z"
+  },
+  {
+    "id": "11bb7039-bfa9-4c81-ae10-99ea7ab56a1d",
+    "name": "Beta Class",
+    "createdAt": "2025-07-18T05:17:09.438Z"
+  },
+  {
+    "id": "5e286f03-ed26-4188-a780-116a6022f87a",
+    "name": "Alpha Beta Class",
+    "createdAt": "2025-07-18T05:17:09.488Z"
+  }
+]

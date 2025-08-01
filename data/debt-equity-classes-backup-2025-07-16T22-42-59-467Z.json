@@ -1,0 +1,74 @@
+[
+  {
+    "id": "2b8404a8-fb10-424e-9b25-1779c60f242c",
+    "projectId": "test-project-456",
+    "unitClass": "Class B",
+    "unitPrice": 250,
+    "isOpenToInvestments": false,
+    "investmentIncrementAmount": 20,
+    "minInvestmentAmount": 200,
+    "maxInvestmentAmount": 2000,
+    "createdAt": "2025-07-16T22:28:18.327Z",
+    "updatedAt": "2025-07-16T22:28:18.327Z"
+  },
+  {
+    "id": "b5da0927-3b04-41d2-9e7e-d402eff099bd",
+    "projectId": "test-project-concurrent",
+    "unitClass": "Concurrent Class 5",
+    "unitPrice": 140,
+    "isOpenToInvestments": true,
+    "investmentIncrementAmount": 10,
+    "minInvestmentAmount": 100,
+    "maxInvestmentAmount": 1000,
+    "createdAt": "2025-07-16T22:42:17.112Z",
+    "updatedAt": "2025-07-16T22:42:17.112Z"
+  },
+  {
+    "id": "cf8315b7-db3a-4882-8d13-1b898b33f3e4",
+    "projectId": "test-project-sequential",
+    "unitClass": "Sequential Class 2",
+    "unitPrice": 110,
+    "isOpenToInvestments": true,
+    "investmentIncrementAmount": 10,
+    "minInvestmentAmount": 100,
+    "maxInvestmentAmount": 1000,
+    "createdAt": "2025-07-16T22:42:59.459Z",
+    "updatedAt": "2025-07-16T22:42:59.459Z"
+  },
+  {
+    "id": "022f481a-05f0-4b7b-aa53-e6a6b1f7e268",
+    "projectId": "test-project-sequential",
+    "unitClass": "Sequential Class 3",
+    "unitPrice": 120,
+    "isOpenToInvestments": true,
+    "investmentIncrementAmount": 10,
+    "minInvestmentAmount": 100,
+    "maxInvestmentAmount": 1000,
+    "createdAt": "2025-07-16T22:42:59.460Z",
+    "updatedAt": "2025-07-16T22:42:59.460Z"
+  },
+  {
+    "id": "98b59079-7bed-4365-8a67-77fe79a99be0",
+    "projectId": "test-project-sequential",
+    "unitClass": "Sequential Class 4",
+    "unitPrice": 130,
+    "isOpenToInvestments": true,
+    "investmentIncrementAmount": 10,
+    "minInvestmentAmount": 100,
+    "maxInvestmentAmount": 1000,
+    "createdAt": "2025-07-16T22:42:59.460Z",
+    "updatedAt": "2025-07-16T22:42:59.460Z"
+  },
+  {
+    "id": "e856abcd-2819-4830-a655-9521150e3f59",
+    "projectId": "test-project-sequential",
+    "unitClass": "Sequential Class 5",
+    "unitPrice": 140,
+    "isOpenToInvestments": true,
+    "investmentIncrementAmount": 10,
+    "minInvestmentAmount": 100,
+    "maxInvestmentAmount": 1000,
+    "createdAt": "2025-07-16T22:42:59.460Z",
+    "updatedAt": "2025-07-16T22:42:59.460Z"
+  }
+]

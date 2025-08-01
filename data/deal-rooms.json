@@ -1,0 +1,71 @@
+[
+  {
+    "id": "dr_i5oyi8rocmd8d62i5",
+    "projectId": "md3s4xz55gvjwa9z5kx",
+    "investmentBlurb": "This is an exciting real estate investment opportunity in prime downtown location with high growth potential and strong rental yields.",
+    "investmentSummary": "Our comprehensive investment strategy focuses on acquiring and developing premium real estate assets in high-growth markets.",
+    "keyInfo": [
+      {
+        "id": "item_7uzlm2iuw",
+        "name": "Property Details",
+        "link": "https://example.com/property",
+        "order": 1
+      },
+      {
+        "id": "item_5wte030fm",
+        "name": "Financial Projections",
+        "link": "https://example.com/financials",
+        "order": 2
+      }
+    ],
+    "externalLinks": [
+      {
+        "id": "item_r5g04pwaq",
+        "name": "Market Analysis",
+        "url": "https://example.com/market",
+        "order": 1
+      },
+      {
+        "id": "item_8dhvo398y",
+        "name": "Legal Documents",
+        "url": "https://example.com/legal",
+        "order": 2
+      }
+    ],
+    "createdAt": "2025-07-18T05:13:48.077Z",
+    "updatedAt": "2025-07-18T05:14:10.403Z"
+  },
+  {
+    "id": "dr_o9l29xl93mdaeiqzl",
+    "projectId": "md6meit9vmnneh5u5vg",
+    "investmentBlurb": "Updated test investment blurb for auto-save functionality.",
+    "investmentSummary": "# Updated Test Investment Summary\n\nThis is an updated test summary.",
+    "keyInfo": [
+      {
+        "id": "item_622f34kmv",
+        "name": "Financial Projections",
+        "link": "https://example.com/financials.pdf",
+        "order": 0
+      },
+      {
+        "id": "item_ugn49mchy",
+        "name": "Market Analysis",
+        "link": "https://example.com/market.pdf",
+        "order": 1
+      }
+    ],
+    "externalLinks": [],
+    "createdAt": "2025-07-19T15:27:11.649Z",
+    "updatedAt": "2025-07-21T18:27:32.867Z"
+  },
+  {
+    "id": "dr_hzq6ff1rymdsdyxub",
+    "projectId": "1b590df7-a950-4755-9a76-674c27788b17",
+    "investmentBlurb": "",
+    "investmentSummary": "",
+    "keyInfo": [],
+    "externalLinks": [],
+    "createdAt": "2025-08-01T05:31:38.579Z",
+    "updatedAt": "2025-08-01T05:31:38.579Z"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "2b8404a8-fb10-424e-9b25-1779c60f242c",
+    "projectId": "test-project-456",
+    "unitClass": "Class B",
+    "unitPrice": 250,
+    "isOpenToInvestments": false,
+    "investmentIncrementAmount": 20,
+    "minInvestmentAmount": 200,
+    "maxInvestmentAmount": 2000,
+    "createdAt": "2025-07-16T22:28:18.327Z",
+    "updatedAt": "2025-07-16T22:28:18.327Z"
+  },
+  {
+    "id": "b5da0927-3b04-41d2-9e7e-d402eff099bd",
+    "projectId": "test-project-concurrent",
+    "unitClass": "Concurrent Class 5",
+    "unitPrice": 140,
+    "isOpenToInvestments": true,
+    "investmentIncrementAmount": 10,
+    "minInvestmentAmount": 100,
+    "maxInvestmentAmount": 1000,
+    "createdAt": "2025-07-16T22:42:17.112Z",
+    "updatedAt": "2025-07-16T22:42:17.112Z"
+  },
+  {
+    "id": "eb02c60b-7364-432b-833f-98de7485b685",
+    "projectId": "md6mdujm8m65909jshu",
+    "unitClass": "Class A",
+    "unitPrice": 100,
+    "isOpenToInvestments": true,
+    "investmentIncrementAmount": 1000,
+    "minInvestmentAmount": 5000,
+    "maxInvestmentAmount": 100000,
+    "createdAt": "2025-07-16T23:56:15.219Z",
+    "updatedAt": "2025-07-16T23:56:15.219Z"
+  },
+  {
+    "id": "3151a69e-d321-4055-abe6-7d6307e0c216",
+    "projectId": "md6n0gavrujd8hei0jq",
+    "unitClass": "Class A",
+    "unitPrice": 100,
+    "isOpenToInvestments": true,
+    "investmentIncrementAmount": 1000,
+    "minInvestmentAmount": 5000,
+    "maxInvestmentAmount": 100000,
+    "createdAt": "2025-07-17T00:13:49.894Z",
+    "updatedAt": "2025-07-17T00:13:49.894Z"
+  },
+  {
+    "id": "8c1d1ce1-8c3d-442c-8a71-c1ecdfa749c9",
+    "projectId": "md6n0gavrujd8hei0jq",
+    "unitClass": "Class B",
+    "unitPrice": 150,
+    "isOpenToInvestments": false,
+    "investmentIncrementAmount": 1000,
+    "minInvestmentAmount": 5000,
+    "maxInvestmentAmount": 100000,
+    "createdAt": "2025-07-17T00:13:49.926Z",
+    "updatedAt": "2025-07-17T00:13:49.928Z"
+  },
+  {
+    "id": "2a8662b6-2b41-42af-863b-89a080602994",
+    "projectId": "test-project-find-2",
+    "unitClass": "Premium Class",
+    "unitPrice": 100,
+    "isOpenToInvestments": true,
+    "investmentIncrementAmount": 10,
+    "minInvestmentAmount": 100,
+    "maxInvestmentAmount": 1000,
+    "createdAt": "2025-07-18T05:17:10.157Z",
+    "updatedAt": "2025-07-18T05:17:10.157Z"
+  }
+]

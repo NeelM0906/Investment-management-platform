@@ -1,0 +1,26 @@
+[
+  {
+    "id": "2b8404a8-fb10-424e-9b25-1779c60f242c",
+    "projectId": "test-project-456",
+    "unitClass": "Class B",
+    "unitPrice": 250,
+    "isOpenToInvestments": false,
+    "investmentIncrementAmount": 20,
+    "minInvestmentAmount": 200,
+    "maxInvestmentAmount": 2000,
+    "createdAt": "2025-07-16T22:28:18.327Z",
+    "updatedAt": "2025-07-16T22:28:18.327Z"
+  },
+  {
+    "id": "558adf5c-0c67-455c-8c3e-26eb8f16ffb7",
+    "projectId": "test-project-validation",
+    "unitClass": "Invalid Class",
+    "unitPrice": 100,
+    "isOpenToInvestments": true,
+    "investmentIncrementAmount": 10,
+    "minInvestmentAmount": 1000,
+    "maxInvestmentAmount": 500,
+    "createdAt": "2025-07-16T22:42:17.093Z",
+    "updatedAt": "2025-07-16T22:42:17.093Z"
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "id": "1b590df7-a950-4755-9a76-674c27788b17",
+    "projectName": "Green Energy Fund",
+    "legalProjectName": "Green Energy Investment Fund LLC",
+    "unitCalculationPrecision": 4,
+    "targetAmount": 5000000,
+    "currency": "USD",
+    "timeframe": {
+      "startDate": "2024-03-01T00:00:00.000Z",
+      "endDate": "2025-02-28T00:00:00.000Z"
+    },
+    "createdAt": "2025-07-14T23:59:37.844Z",
+    "updatedAt": "2025-07-15T02:03:32.062Z",
+    "commitments": {
+      "totalAmount": 0,
+      "investorCount": 0
+    },
+    "reservations": {
+      "totalAmount": 0,
+      "investorCount": 0
+    },
+    "minimumInvestment": null
+  },
+  {
+    "id": "dc5b538a-49f4-419d-b39c-8336c73961a1",
+    "projectName": "Tech Startup Portfolio",
+    "legalProjectName": "Technology Startup Investment Portfolio Inc.",
+    "unitCalculationPrecision": 2,
+    "targetAmount": 2500000,
+    "currency": "USD",
+    "timeframe": {
+      "startDate": "2024-06-01T00:00:00.000Z",
+      "endDate": "2025-05-31T00:00:00.000Z"
+    },
+    "createdAt": "2025-07-14T23:59:37.849Z",
+    "updatedAt": "2025-07-15T02:03:32.062Z",
+    "commitments": {
+      "totalAmount": 0,
+      "investorCount": 0
+    },
+    "reservations": {
+      "totalAmount": 0,
+      "investorCount": 0
+    },
+    "minimumInvestment": null
+  },
+  {
+    "id": "607af3d8-d974-495d-a8fe-1db6fcf4cf4f",
+    "projectName": "Real Estate Development",
+    "legalProjectName": "Prime Real Estate Development Fund LP",
+    "unitCalculationPrecision": 2,
+    "targetAmount": 10000000,
+    "currency": "USD",
+    "timeframe": {
+      "startDate": "2024-01-15T00:00:00.000Z",
+      "endDate": "2026-01-14T00:00:00.000Z"
+    },
+    "createdAt": "2025-07-14T23:59:37.849Z",
+    "updatedAt": "2025-07-15T02:03:32.062Z",
+    "commitments": {
+      "totalAmount": 0,
+      "investorCount": 0
+    },
+    "reservations": {
+      "totalAmount": 0,
+      "investorCount": 0
+    },
+    "minimumInvestment": null
+  },
+  {
+    "id": "md3rzdrow9z36c4fjni",
+    "projectName": "Test API Project",
+    "legalProjectName": "Test API Project LLC",
+    "unitCalculationPrecision": 2,
+    "targetAmount": 500000,
+    "currency": "USD",
+    "timeframe": {
+      "startDate": "2024-08-01T00:00:00.000Z",
+      "endDate": "2025-07-31T00:00:00.000Z"
+    },
+    "createdAt": "2025-07-15T00:09:39.444Z",
+    "updatedAt": "2025-07-15T02:03:32.062Z",
+    "commitments": {
+      "totalAmount": 0,
+      "investorCount": 0
+    },
+    "reservations": {
+      "totalAmount": 0,
+      "investorCount": 0
+    },
+    "minimumInvestment": null
+  },
+  {
+    "id": "md3s4xz55gvjwa9z5kx",
+    "projectName": "czXc",
+    "legalProjectName": "ABC townhouses LLC",
+    "unitCalculationPrecision": 2,
+    "targetAmount": 1255555,
+    "currency": "USD",
+    "timeframe": {
+      "startDate": "2025-07-15T00:00:00.000Z",
+      "endDate": "2025-07-31T00:00:00.000Z"
+    },
+    "createdAt": "2025-07-15T00:13:58.913Z",
+    "updatedAt": "2025-07-15T02:03:32.062Z",
+    "commitments": {
+      "totalAmount": 500000,
+      "investorCount": 3
+    },
+    "reservations": {
+      "totalAmount": 200000,
+      "investorCount": 2
+    },
+    "minimumInvestment": null
+  },
+  {
+    "id": "md6maamk4o16hejpfdv",
+    "projectName": "Test Project",
+    "legalProjectName": "Test Legal Project",
+    "unitCalculationPrecision": 2,
+    "targetAmount": 1000000,
+    "timeframe": {
+      "startDate": "2025-01-01T00:00:00.000Z",
+      "endDate": "2025-12-31T00:00:00.000Z"
+    },
+    "commitments": {
+      "totalAmount": 0,
+      "investorCount": 0
+    },
+    "reservations": {
+      "totalAmount": 0,
+      "investorCount": 0
+    },
+    "createdAt": "2025-07-16T23:53:29.420Z",
+    "updatedAt": "2025-07-16T23:53:29.420Z"
+  },
+  {
+    "id": "md6mdujm8m65909jshu",
+    "projectName": "Test Project 1752710175146",
+    "legalProjectName": "Test Legal Project 1752710175146",
+    "unitCalculationPrecision": 2,
+    "targetAmount": 1000000,
+    "timeframe": {
+      "startDate": "2025-01-01T00:00:00.000Z",
+      "endDate": "2025-12-31T00:00:00.000Z"
+    },
+    "commitments": {
+      "totalAmount": 0,
+      "investorCount": 0
+    },
+    "reservations": {
+      "totalAmount": 0,
+      "investorCount": 0
+    },
+    "createdAt": "2025-07-16T23:56:15.202Z",
+    "updatedAt": "2025-07-16T23:56:15.202Z"
+  },
+  {
+    "id": "md6meit9vmnneh5u5vg",
+    "projectName": "Test Project 1752710206602",
+    "legalProjectName": "Test Legal Project 1752710206602",
+    "unitCalculationPrecision": 2,
+    "targetAmount": 1000000,
+    "timeframe": {
+      "startDate": "2025-01-01T00:00:00.000Z",
+      "endDate": "2025-12-31T00:00:00.000Z"
+    },
+    "commitments": {
+      "totalAmount": 0,
+      "investorCount": 0
+    },
+    "reservations": {
+      "totalAmount": 0,
+      "investorCount": 0
+    },
+    "createdAt": "2025-07-16T23:56:46.653Z",
+    "updatedAt": "2025-07-16T23:56:46.653Z"
+  },
+  {
+    "id": "md6n0gavrujd8hei0jq",
+    "projectName": "Test Project for API",
+    "legalProjectName": "Test Legal Project for API",
+    "unitCalculationPrecision": 2,
+    "targetAmount": 1000000,
+    "currency": "USD",
+    "timeframe": {
+      "startDate": "2025-01-01T00:00:00.000Z",
+      "endDate": "2025-12-31T00:00:00.000Z"
+    },
+    "commitments": {
+      "totalAmount": 0,
+      "investorCount": 0
+    },
+    "reservations": {
+      "totalAmount": 0,
+      "investorCount": 0
+    },
+    "createdAt": "2025-07-17T00:13:49.831Z",
+    "updatedAt": "2025-07-17T00:13:49.831Z"
+  }
+]
